@@ -1,0 +1,103 @@
+    \documentclass[12pt]{article}
+    \usepackage{amsmath}
+   
+    
+       \textwidth 15.5cm
+       \textheight 23.0cm
+       \topskip 0cm
+       \evensidemargin 0.5cm     
+       \oddsidemargin 0.5cm      
+
+    \begin{document}
+
+    \title{PHYS131 -- IT Skills -- Worksheet 3}
+    \author{Samuel Hedges}
+    \date{\today}
+    \maketitle
+
+    \begin{abstract}
+    This is my first document typeset in \LaTeX.\textit{I declare that this submission is my own work. I have not submitted it in substantially the same form towards the award of a degree or other qualification. It has not been written or composed by any other person and all sources have been referenced or acknowledged.}
+    \end{abstract}
+
+    \tableofcontents
+
+\section{Introduction}
+
+In addition to the Introduction and the Summary sections, this document contains two  sections:  Equations, Sec.\ \ref{sec:Equations}, and Tables, Sec.\ \ref{sec:Table}, and their subsections.
+
+\section{Equations}
+\label{sec:Equations}
+
+This section contains equations.
+    \subsection{Quadratic equation}
+
+$$x_{1,2} =\frac {-b^{2} \pm \sqrt{b^{2}-4ac}}{2a}$$
+\textrm{This equation will give is the roots to a polynomial first order polynomial ($x_{1,2}$), if we know the coefficients of $x^{2}$, x and the y intercept which are a, b and c respectively}
+    \subsection{Matrix}
+
+This is a 3$\times$3 matrix.
+
+$$ Q =\begin{vmatrix} 
+1 & -\sigma_0^{2} & 3 \\
+2 & 2 & sin(2\pi\omega_2)\\
+x_1\overline{x}_2 & 3 & 1
+\end{vmatrix}$$  
+
+    \subsection{Infinite series}
+
+As already written in my Worksheet 1 of PHYS131 -- IT Skills, the solution  of \ldots 
+
+$$\sum_{n=0}^{\infty}\frac{1}{(1+n)^{4}} = \frac{\pi^{4}}{90} \approx 1.08232323$$
+ \subsection{System of equations}
+
+As already written in my Worksheet 1 of PHYS131 -- IT Skills, the solution  of \ldots
+$$2 = a+b$$
+$$a = c-b$$
+$$a = b+c$$
+
+$$a = 2, b = 0, c = 2$$
+ \subsection{Indefinite integral}
+
+ As already written in my Worksheet 1 of PHYS131 -- IT Skills, the solution  of \ldots
+$$\int\frac{dx}{(1-x)^{3}}dx = \frac{1}{2(1-x)^{2}}$$
+
+
+\section{Tables}
+\label{sec:Table}
+
+This section contains tables.
+
+    \subsection{Table 1}
+
+Here is my first table. \\
+\begin{center}
+\begin{tabular}{c|c}
+ \hline
+ \multicolumn{2}{c}{Numbers} \\
+  \hline
+  Even   & Odd \\ \hline
+   2,4,...  & 1,3,...\\ \hline
+\end{tabular}   
+\end{center}
+
+\subsection{Table 2}
+
+Here is my second table.
+\begin{center}
+ \begin{tabular}{|1|c|r|}
+  \hline
+ & \multicolumn{2}{c|}{columns} \\ \hline
+   & A & B \\ \cline{2-2}
+ \hline \hline
+ C & AC & BC\\ \hline
+ D & AD & BD \\ \hline
+ E & BE & CE \\ \hline
+ \hline
+ \end{tabular}
+\end{center}
+\section{Summary}
+
+I have created a simple document in \LaTeX. It contains equations and tables.
+
+
+    \end{document}
